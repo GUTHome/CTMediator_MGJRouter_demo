@@ -1,0 +1,25 @@
+//
+//  AppHeader.pch
+//  CTMediator_MGJRouter_demo
+//
+//  Created by cocomanber on 2019/5/3.
+//  Copyright © 2019 cocomanber. All rights reserved.
+//
+
+#ifndef AppHeader_pch
+#define AppHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+/// 配合MGJRouter
+#import "MGJRouter.h"
+#import "ModuleRouterManager.h"
+
+
+
+#endif /* AppHeader_pch */

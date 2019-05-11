@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CTMediator_MGJRouter_demo' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for CTMediator_MGJRouter_demo
+
+  target 'CTMediator_MGJRouter_demoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CTMediator_MGJRouter_demoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  #不使用pod方式导入，因为涉及到修改码源以增加己方的业务需求，具体看码源，原作者使用//注释，我这边使用///注释方便对比查看
+  #方案一
+  #pod "CTMediator"
+  
+  #方案二
+  #pod "MGJRouter"
+
+
+end
